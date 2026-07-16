@@ -1,0 +1,15 @@
+# Environment
+.env
+.env.local
+.env*.local
+
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Node (frontend/ has its own .gitignore too)
+node_modules/
+.next/
